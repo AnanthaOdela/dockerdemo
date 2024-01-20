@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@GetMapping("/greet")
 	public String getMessage() {
-		return "Welcome to Docker";
+		return "Welcome to Kubernetes deployment";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
