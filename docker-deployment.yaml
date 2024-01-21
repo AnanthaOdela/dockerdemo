@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: docker-demo
-          image: 7876/docker-demo.jar:2.0 # Image that will be used to containers in the cluster
+          image: 7876/docker-demo.jar:4.0 # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
